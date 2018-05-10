@@ -1,5 +1,8 @@
 # create-react-app-complete-setup
 
+This is a full setup for create-react-app with `redux` and `react-router` and a custom eslint config.
+There are some SCSS utilities as well
+
 ## 1 - Install create-react-app
 
 ```
