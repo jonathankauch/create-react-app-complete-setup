@@ -1,0 +1,29 @@
+$blue: #6772e5; // #31839b;
+$blueLight: #7795f8;
+$blueDark: #32325d;
+$blueBg: rgba($blue, 0.06);
+$green: #3ecf8e;
+$red: #e76069;
+$darkREd: #CA2D2D;
+$yellow: #FABB06;
+
+$grayLight:#f6f9fc; // #F4F5F7; // #f2f2f2;
+$grayMedium: #EAECF0; // #eeeeee;
+$grayDark: #999999;
+$blackLight: #525f7f;
+
+.color-white {
+  color: #FFF;
+}
+
+.color-blue {
+  color: $blue;
+}
+
+.color-green {
+  color: $green;
+}
+
+.color-red {
+  color: $red;
+}

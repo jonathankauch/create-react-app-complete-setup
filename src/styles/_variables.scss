@@ -1,0 +1,29 @@
+
+// *********************************************************************
+// GLOBAL
+// **********************************************************************
+
+$nav-width: 240px;
+$nav-height: 70px;
+$header-height: 60px;
+$logo-width: 165px;
+$controls-width: 300px;
+$select-width: 500px;
+$select-height: 60px;
+
+// *********************************************************************
+// BREAKPOINT
+// **********************************************************************
+
+$xs: 480px;
+$sm: 600px;
+$md: 800px;
+$lg: 1024px;
+$xl: 1230px;
+
+@mixin bp-below($bp) {
+  @media (max-width: $bp) { @content; }
+}
+@mixin bp-above($bp) {
+  @media (min-width: $bp) { @content; }
+}

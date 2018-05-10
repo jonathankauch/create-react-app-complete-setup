@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css?family=Open+sans:300,400,700');
+
+@import "styles/index";
+@import "styles/animations";
+@import "styles/grid";
+@import "styles/table";
+@import "styles/button";
+@import "styles/utilities";
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  background-color: #FFF;
+  overflow-x: hidden;
+  color: $blackLight;
+  font-size: 16px;
+}
+
+* {
+  box-sizing: border-box;
+}

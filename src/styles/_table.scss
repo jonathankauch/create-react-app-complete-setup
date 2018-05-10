@@ -1,0 +1,25 @@
+.table-container {
+  margin-top: 15px;
+
+  table {
+    width: 100%;
+  }
+
+  th {
+    border-bottom: 1px solid $blackLight;
+    padding: 14px 0;
+  }
+
+  td {
+    padding: 8px;
+    border-bottom: 1px solid $grayMedium;
+
+    img {
+      height: 35px;
+    }
+  }
+
+  tr:hover {
+    background: $grayLight;
+  }
+}
