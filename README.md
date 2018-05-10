@@ -1,7 +1,8 @@
 # create-react-app-complete-setup
 
-This is a full setup for create-react-app with `redux` and `react-router` and a custom eslint config.
-There are some SCSS utilities as well
+- This is a full setup for create-react-app with `redux` and `react-router` and a custom eslint config
+- There are some SCSS utilities as well
+- This follow step are already include in the repot, just clone and `yarn start` everything should work pretty well
 
 ## 1 - Install create-react-app
 
