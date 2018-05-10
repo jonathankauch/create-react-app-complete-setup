@@ -23,7 +23,8 @@ Add to `package.json`
   "start-js": "react-scripts start",
   "start": "npm-run-all -p watch-css start-js",
   "build": "npm run build-css && react-scripts build",
-  "test": "react-scripts test --env=jsdom",
+  "test": "react-scripts test --env=jsdom"
+}
 ```
 
 Rename `App.css` to `App.scss`
