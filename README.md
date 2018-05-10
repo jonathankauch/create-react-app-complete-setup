@@ -78,9 +78,10 @@ module.exports = {
 };
 ```
 
-Add to top of `src/registerServiceWorker.js`:
+Create `.eslintignore` and add:
 ```
-/* eslint-disable no-console, no-param-reassign, no-use-before-define */
+src/registerServiceWorker.js
+src/App.test.js
 ```
 
 
