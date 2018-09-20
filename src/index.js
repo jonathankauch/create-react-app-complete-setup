@@ -10,8 +10,6 @@ import registerServiceWorker from './registerServiceWorker'
 import mainReducer from './combineReducers'
 import App from './App'
 
-import './index.css'
-
 // Redux Store
 /* eslint-disable-next-line */
 const composeEnhancers = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose
